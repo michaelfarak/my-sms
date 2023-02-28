@@ -1,0 +1,10 @@
+
+<mat-toolbar color="primary">
+  <span>My SMS messenger</span>
+</mat-toolbar>
+
+<div class="main-container">
+  <app-sms-sender (sendSms)="onSendSms($event)"></app-sms-sender>
+  <app-sms-history [smsList]="smsList"></app-sms-history>
+</div>
+

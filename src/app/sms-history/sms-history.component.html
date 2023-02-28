@@ -1,0 +1,14 @@
+<mat-card class="history-container">
+  <mat-card-header>
+    <mat-card-title>Message History</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <div class="item-container" *ngFor="let item of smsList" >
+      <div class="phone-number">
+        {{ item.phoneNumber }}
+      </div>
+      <span class="date">{{item.timestamp | date: 'long'}}</span>
+      <div class="message">{{item.message}}</div>
+    </div>
+  </mat-card-content>
+</mat-card>

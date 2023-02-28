@@ -1,0 +1,25 @@
+.history-container {
+  height: 550px;
+  width: 400px;
+}
+
+.item-container{
+  margin-top: 10px;
+}
+
+.phone-number {
+  margin: 10px;
+  font-weight: bold;
+  display: inline;
+}
+
+.date {
+  float: right;
+  font-size: smaller;
+}
+
+.message {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+}
